@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>サンプル </title>
+    </head>
+<body>
+    <script>
+        function clickButton() {
+            var img = document.createElement('img');
+            img.setAttribute("src", "test.jpg");
+            var div = document.getElementById("id123");
+            div.appendChild(img);
+        }
+    </script>
+
+    <div id="id123"></div>
+    <input type="button" value="OK" onclick="clickButton()">
+</body>
+    </html>
